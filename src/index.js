@@ -53,7 +53,7 @@ class TodoList {
           todoItemDescription.classList.add('description');
           todoItemDescription.textContent = `${todo.description}`;
           todoItem.appendChild(todoItemDescription);
-
+          
           const trashIcon = document.createElement('img');
           trashIcon.src = Trash;
           trashIcon.classList.add('trash');
@@ -61,6 +61,19 @@ class TodoList {
           trashIcon.id = this.todos[i].index;
          
           this.todoList.appendChild(todoItem);
+
+          const editDescription = document.createElement('input');
+          todoItemDescription.addEventListener('click', () => {
+            editDescription.type = "text";
+            editDescription.classList.add('description');
+            todoItemDescription.replaceWith(editDescription);
+          });
+          let timeout;
+          editDescription.addEventListener('keydown', clearTimeout(timeout)
+          timeout = setTimeout(() => {
+            console.log('Has dejado de escribir en el input')
+            clearTimeout(timeout)
+          },1000))
       }
       this.removeSelectItem();
       const intro = document.querySelector('.enter_icon');
@@ -90,6 +103,7 @@ class TodoList {
         localStorage.setItem('todo', JSON.stringify(this.todos));
         this.displayItems();
       }
-  
+    
+
 }
 const todoList = new TodoList();
