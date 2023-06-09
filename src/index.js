@@ -1,5 +1,7 @@
 import _ from 'lodash';
 import TodoItems from './todoItems.js';
+import reLoad from './reload.svg';
+import introIcon from './EnterIcon.svg';
 import Trash from './TrashBasket.svg';
 import './style.css';
 
@@ -12,14 +14,17 @@ class TodoList {
        this.todoDescription.addEventListener('keydown',(event) => {
         if(event.code === "Enter" || event.code === "NumpadEnter") {
           this.addItem(event)    
-       }
-   });
-       this.clearAll();
-    }
+        }
+        });
+        if(localStorage){
+          this.displayItems();
+          }
+         this.displayItems();
+     }
 
     addItem = (event) => {
       const description = this.todoDescription.value;
-      let index = this.todos.length;
+      let index = this.todos.length + 1;
       let completed = false;
 
       const todo = new TodoItems(description, index, completed);
@@ -58,6 +63,10 @@ class TodoList {
           this.todoList.appendChild(todoItem);
       }
       this.removeSelectItem();
+      const intro = document.querySelector('.enter_icon');
+      intro.src = introIcon;
+      const reload = document.querySelector('.reload');
+      reload.src = reLoad;
     }
     
     clearList = () => {
@@ -75,6 +84,9 @@ class TodoList {
         const itemPosition = Number(event.target.id);
         const toRemoveItem = this.todos.filter((task) => task.index !== itemPosition);
         this.todos = [...toRemoveItem];
+        for(let i = 0; i < this.todos.length; i++){
+            this.todos[i].index = i + 1;
+        }
         localStorage.setItem('todo', JSON.stringify(this.todos));
         this.displayItems();
       }
