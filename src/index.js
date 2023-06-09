@@ -68,12 +68,7 @@ class TodoList {
             editDescription.classList.add('description');
             todoItemDescription.replaceWith(editDescription);
           });
-          let timeout;
-          editDescription.addEventListener('keydown', clearTimeout(timeout)
-          timeout = setTimeout(() => {
-            console.log('Has dejado de escribir en el input')
-            clearTimeout(timeout)
-          },1000))
+         
       }
       this.removeSelectItem();
       const intro = document.querySelector('.enter_icon');
