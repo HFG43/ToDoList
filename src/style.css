@@ -1,3 +1,88 @@
-.hello {
-    color: red;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+  
+html {
+  background-color: #f5f1f1;  
+}
+
+.section_todo {
+  margin: 50px 10% 0 10%;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #d8dad8;
+}
+  
+#todo-list {
+  padding: 16px 12px;
+  border-bottom: 1px solid #d8dad8;
+}
+  
+.title_container {
+  border-bottom: 1px solid #d8dad8;
+  padding: 20px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reload {
+  height: 20px;
+  width: auto
+}
+
+.input_container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d8dad8;
+}
+
+.description {
+  font-size: 1.2rem;
+  font-style: italic;
+  width: 100%;
+  padding: 20px 12px;
+  border-style: none;
+}
+
+.enter_icon {
+  height: 20px;
+  width: auto;
+  margin-right: 12px;
+}
+
+.todo_item {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #d8dad8;
+  position: relative;
+}
+  
+.checkbox {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+  
+.trash {
+  height: 30px;
+  width: auto;
+  position: absolute;
+  left: 90%;
+}
+  
+.threedots {
+  height: 30px;
+  color: #d8dad8;
+  position: absolute;
+  left: 90%;
+}
+
+#clear_all {
+  text-align: center;
+  padding: 24px;
+  background-color: #edeeed;
+  font-size: 1.3rem;
+}
