@@ -68,7 +68,20 @@ class TodoList {
             editDescription.classList.add('description');
             todoItemDescription.replaceWith(editDescription);
           });
-         
+
+          let timeout;
+
+          editDescription.addEventListener('focusout', () => {
+            // clearTimeout(timeout)
+            // timeout = setTimeout(() => {
+              const editedDescription = editDescription.value;
+              this.todos[i].description = editedDescription;
+              localStorage.setItem('todo', JSON.stringify(this.todos));
+
+            // clearTimeout(timeout)
+        //   },6000)
+          this.displayItems();
+        });
       }
       this.removeSelectItem();
       const intro = document.querySelector('.enter_icon');

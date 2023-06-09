@@ -14,7 +14,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -78,10 +77,6 @@ This project is about a generation of a To Do List application using HTML, JavaS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-[My portfolio live demo link](https://hfg43.github.io/ToDoList/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -97,7 +92,7 @@ Open on Visual Studio Code or any other code reader, and use an app as Live Serv
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/HFG43/Awesome_Books_ES6.git
+git clone https://github.com/HFG43/ToDoList
 
 ### Install
 
@@ -123,7 +118,7 @@ No test available yet.
 
 You can deploy this project using:
 
-[My portfolio deployment link] (https://hfg43.github.io/ToDoList/)
+[My portfolio deployment link] (Not available yet)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,6 +138,7 @@ You can deploy this project using:
 - **[Improve UX by adding more intuitive interaction]**
 - **[Clear all list intems button]**
 - **[Drag & Drop option]**
+- **[Deployment using GH Pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
