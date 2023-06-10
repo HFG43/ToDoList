@@ -3,6 +3,7 @@ import reLoad from './reload.svg';
 import introIcon from './EnterIcon.svg';
 import Trash from './TrashBasket.svg';
 import './style.css';
+import data from './array.js';
 
 export default class TodoList {
   constructor() {
@@ -23,20 +24,20 @@ export default class TodoList {
     this.reload();
   }
 
-    addItem = () => {
-      const description = this.todoDescription.value;
-      const index = this.todos.length + 1;
-      const completed = false;
+    // addItem = () => {
+    //   const description = this.todoDescription.value;
+    //   const index = this.todos.length + 1;
+    //   const completed = false;
 
-      const todo = new TodoItems(description, index, completed);
+    //   const todo = new TodoItems(description, index, completed);
 
-      this.todos = [...this.todos, todo];
+    //   this.todos = [...this.todos, todo];
 
-      localStorage.setItem('todo', JSON.stringify(this.todos));
+    //   localStorage.setItem('todo', JSON.stringify(this.todos));
 
-      this.displayItems();
-      this.todoDescription.value = '';
-    }
+    //   this.displayItems();
+    //   this.todoDescription.value = '';
+    // }
 
     displayItems = () => {
       this.clearList();

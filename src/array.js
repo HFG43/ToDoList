@@ -25,3 +25,5 @@ const data = [
       index: 4,       
     },  
     ];
+
+    export { data };
