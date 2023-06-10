@@ -72,15 +72,20 @@ export default class TodoList {
         const editDescription = document.createElement('input');
         todoItemDescription.addEventListener('click', () => {
           editDescription.type = 'text';
+          editDescription.value = todoItemDescription.textContent;
           editDescription.classList.add('description');
           todoItemDescription.replaceWith(editDescription);
         });
 
         editDescription.addEventListener('focusout', () => {
-          const editedDescription = editDescription.value;
-          this.todos[i].description = editedDescription;
-          localStorage.setItem('todo', JSON.stringify(this.todos));
-          this.displayItems();
+          if (editDescription.value === '') {
+            this.displayItems();
+          } else {
+            const editedDescription = editDescription.value;
+            this.todos[i].description = editedDescription;
+            localStorage.setItem('todo', JSON.stringify(this.todos));
+            this.displayItems();
+          }
         });
       }
       this.removeSelectItem();
