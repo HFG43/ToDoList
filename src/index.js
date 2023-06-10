@@ -46,6 +46,7 @@ class TodoList {
         check.type = 'checkbox';
         check.classList.add('checkbox');
         todoItem.appendChild(check);
+        // completeToDo();
 
         const todoItemDescription = document.createElement('span');
         todoItemDescription.classList.add('description');
@@ -79,6 +80,19 @@ class TodoList {
       intro.src = introIcon;
       const reload = document.querySelector('.reload');
       reload.src = reLoad;
+    }
+
+    // completeToDo = () => {
+    //   const checked = document.querySelector.querySelectorAll('.checkbox');
+    //   checked.forEach((item) => {
+    //     console.log('hola');
+    //     item.addEventListener('checked', this.markCompleted);
+    //   });
+    // }
+   
+    markCompleted = () => {
+        
+      classList.add('completed');
     }
 
     clearList = () => {

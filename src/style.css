@@ -66,6 +66,10 @@ html {
   margin-right: 12px;
 }
 
+.completed {
+  text-decoration:line-through;   
+}
+
 .trash {
   height: 30px;
   width: auto;
