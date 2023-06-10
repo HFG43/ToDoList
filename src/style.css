@@ -28,6 +28,12 @@ html {
   justify-content: space-between;
 }
 
+#reload {
+  outline: none;
+  border: none;
+  background-color: #fff;
+}
+
 .reload {
   height: 20px;
   width: auto;
@@ -37,6 +43,10 @@ html {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #d8dad8;
+}
+
+input[type="text"]:focus {
+  outline: none;
 }
 
 .description {
@@ -84,9 +94,15 @@ html {
   left: 90%;
 }
 
-#clear_all {
+#clear_all_button {
   text-align: center;
   padding: 24px;
   background-color: #edeeed;
   font-size: 1.3rem;
+  width: 100%;
+  border: 0;
+}
+
+#clear_all_button:hover {
+  text-decoration: underline;
 }

@@ -12,7 +12,7 @@
         <div class="section_todo">
             <div class="title_container">
                 <h1>Today's To Do</h1>
-                <span><img class="reload" src=".src/reload.svg"/></span>
+                <button type="button" id="reload"><img class="reload" src=".src/reload.svg"/></button>
              
             </div>
             <div class="input_container">
@@ -22,7 +22,9 @@
             <ul id="todo_list">
 
             </ul>
-            <div id="clear_all">Clear all completed</div>
+            <div id="clear_all">
+              <button type="button" id="clear_all_button">Clear all completed</button>
+            </div>
         </div>
     </section>
     <script type="module" src="./index.js"></script>
