@@ -1,5 +1,6 @@
 <a name="readme-top"></a>
 
+
 <div align="center">
   
 <h3><b>README</b></h3>
@@ -27,9 +28,10 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
+
 # 📖 [To Do List] <a name="about-project"></a>
 
-This project is about a generation of a To Do List application using HTML, JavaScript, the browser's Local Storage, and Webpack as a compiler. Users can add, edit and remove items through a great user-friendly interface. 
+This project is about a generation of a To Do List application using HTML, JavaScript, the browser's Local Storage, and Webpack as a compiler. Users can add, edit and remove items through a user-friendly interface. 
 
 **[To Do List]** is a project where I put in practice ES6 semantics and use of webpack.
 
@@ -71,6 +73,10 @@ This project is about a generation of a To Do List application using HTML, JavaS
 - **[Use ES6 syntax]**
 - **[Use JavaScript Modules]**
 - **[Use Webpack Template]**
+- **[Improve UX by adding more intuitive interaction]**
+- **[Clear all list intems button]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,6 +123,7 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
@@ -131,10 +138,9 @@ You can deploy this project using:
 
 - **[Drag & Drop option]**
 - **[Deployment using GH Pages]**
-- **[Improve UX by adding more intuitive interaction]**
-- **[Clear all list intems button]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -143,6 +149,7 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -156,9 +163,9 @@ I will like to thank Microverse and their Code Reviewers!!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
