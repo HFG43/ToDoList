@@ -31,7 +31,7 @@
 
 # 📖 [To Do List] <a name="about-project"></a>
 
-This project is about a generation of a To Do List application using HTML, JavaScript, the browser's Local Storage, and Webpack as a compiler. Users can add, edit and remove items through a user-friendly interface. 
+This project is about a generation of a To Do List application using HTML, JavaScript, the browser's Local Storage, and Webpack as a compiler. Users can add, edit and remove items through a great user-friendly interface. 
 
 **[To Do List]** is a project where I put in practice ES6 semantics and use of webpack.
 
