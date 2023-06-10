@@ -1,8 +1,7 @@
 import TodoItems from './todoItems.js';
-import reLoad from './reload.svg';
-import introIcon from './EnterIcon.svg';
-import Trash from './TrashBasket.svg';
-import './style.css';
+import reLoad from './Icons/reload.svg';
+import introIcon from './Icons/EnterIcon.svg';
+import Trash from './Icons/TrashBasket.svg';
 
 export default class TodoList {
   constructor() {
