@@ -3,6 +3,7 @@ import reLoad from './reload.svg';
 import introIcon from './EnterIcon.svg';
 import Trash from './TrashBasket.svg';
 import './style.css';
+import './Interactive.js';
 
 class TodoList {
   constructor() {
@@ -44,6 +45,7 @@ class TodoList {
 
         const check = document.createElement('input');
         check.type = 'checkbox';
+        check.id = this.todos[i].index;
         check.classList.add('checkbox');
         todoItem.appendChild(check);
 
