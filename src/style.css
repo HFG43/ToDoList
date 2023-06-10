@@ -16,7 +16,7 @@ html {
 }
 
 #todo-list {
-  padding: 16px 12px;
+  padding: 10px 12px;
   border-bottom: 1px solid #d8dad8;
 }
 
@@ -67,7 +67,7 @@ html {
 }
 
 .completed {
-  text-decoration:line-through;   
+  text-decoration: line-through;
 }
 
 .trash {
