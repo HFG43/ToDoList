@@ -37,6 +37,7 @@ html {
 .reload {
   height: 20px;
   width: auto;
+  margin-right: 24px;
 }
 
 .input_container {
@@ -60,7 +61,7 @@ input[type="text"]:focus {
 .enter_icon {
   height: 20px;
   width: auto;
-  margin-right: 12px;
+  margin-right: 35px;
 }
 
 .todo_item {
