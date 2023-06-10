@@ -73,7 +73,8 @@ This project is about a generation of a To Do List application using HTML, JavaS
 - **[Use ES6 syntax]**
 - **[Use JavaScript Modules]**
 - **[Use Webpack Template]**
-- **[Live Demo]**
+- **[Improve UX by adding more intuitive interaction]**
+- **[Clear all list intems button]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,8 +136,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Improve UX by adding more intuitive interaction]**
-- **[Clear all list intems button]**
 - **[Drag & Drop option]**
 - **[Deployment using GH Pages]**
 
