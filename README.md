@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-
 <div align="center">
   
 <h3><b>README</b></h3>
@@ -27,7 +26,6 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
-
 
 # 📖 [To Do List] <a name="about-project"></a>
 
@@ -73,9 +71,6 @@ This project is about a generation of a To Do List application using HTML, JavaS
 - **[Use ES6 syntax]**
 - **[Use JavaScript Modules]**
 - **[Use Webpack Template]**
-- **[Live Demo]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +117,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
@@ -135,13 +129,12 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Improve UX by adding more intuitive interaction]**
-- **[Clear all list intems button]**
 - **[Drag & Drop option]**
 - **[Deployment using GH Pages]**
+- **[Improve UX by adding more intuitive interaction]**
+- **[Clear all list intems button]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -150,7 +143,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -164,9 +156,9 @@ I will like to thank Microverse and their Code Reviewers!!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
