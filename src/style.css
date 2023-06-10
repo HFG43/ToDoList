@@ -16,7 +16,6 @@ html {
 }
 
 #todo-list {
-  padding: 10px 12px;
   border-bottom: 1px solid #d8dad8;
 }
 
@@ -28,9 +27,15 @@ html {
   justify-content: space-between;
 }
 
+.reload_container {
+  display: flex;
+  justify-content: center;
+}
+
 .reload {
   height: 20px;
   width: auto;
+  margin-right: 24px;
 }
 
 .input_container {
@@ -43,14 +48,14 @@ html {
   font-size: 1.2rem;
   font-style: italic;
   width: 100%;
-  padding: 20px 12px;
+  padding: 10px 12px;
   border-style: none;
 }
 
 .enter_icon {
   height: 20px;
   width: auto;
-  margin-right: 12px;
+  margin-right: 35px;
 }
 
 .todo_item {
@@ -74,7 +79,7 @@ html {
   height: 30px;
   width: auto;
   position: absolute;
-  left: 90%;
+  left: 93%;
 }
 
 .threedots {
