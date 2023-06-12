@@ -119,7 +119,7 @@ No test available yet.
 
 You can deploy this project using:
 
-[My portfolio deployment link] (Not available yet)
+[My portfolio deployment link] (https://hfg43.github.io/ToDoList/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
